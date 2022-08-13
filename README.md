@@ -1,1 +1,8 @@
-# LocalConvexDDI
+# Local-Convexity Data-Driven Identification (LCDDI)
+
+## Abstract
+Reliable and consistent material data acquisition is essential to the data-driven computational mechanics paradigm. This paper presents a generalized data-driven identification (DDI) approach to constructing material databases of high quality. We introduce the locally convex reconstruction method to DDI in order to formulate the local-convexity DDI (LCDDI) method. The LCDDI method can learn the local structures of existing material data and thus produce structure-informed optimal material data points for solving stresses with given strains. The effectiveness of the LCDDI method at addressing large acquisitions of material data with a complex heterogeneous strain field is demonstrated through two numerical experiments: a perforated elastic plate and a center-holed elasto-plastic plate. Convergence studies show that results using the LCDDI method are dramatically improved. We further explain how the LCDDI method manages to accurately identify mechanical stress fields and a high-fidelity material database under the condition of an imbalanced distribution of elastic and plastic deformation. Discussion of the LCDDI method in regards to the oversampling issue, the capability of full-domain analysis, and importance sampling is given. Finally, we conclude that the LCDDI method can extract a vast amount of material data points with improved quality from full-field strain measurements, and can serve as a more reliable technique for material data acquisition.
+
+
+## Code
+The source code of the LCDDI algorithm is provided here. To run it, please refer to the example.m file.
